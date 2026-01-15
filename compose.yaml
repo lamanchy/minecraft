@@ -9,7 +9,7 @@ services:
     ports:
       - "25565:25565"
     environment:
-      INIT_MEMORY: 1G
+      INIT_MEMORY: 1M
       MAX_MEMORY: 8G
       EULA: "TRUE"
       DIFFICULTY: "hard"
