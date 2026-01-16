@@ -1,5 +1,3 @@
-# test3
-
 services:
   mc:
     image: itzg/minecraft-server:latest
