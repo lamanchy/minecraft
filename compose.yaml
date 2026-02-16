@@ -27,7 +27,7 @@ services:
         rei
         architectury-api
         vegan-recipes
-        plasmo-voice
+        simple-voice-chat
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
