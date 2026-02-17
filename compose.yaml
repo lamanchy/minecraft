@@ -44,3 +44,15 @@ services:
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
+
+  log-watcher:
+    build: ./log-watcher
+    environment:
+      SMTP_USER: ${SMTP_USER}
+      SMTP_PASS: ${SMTP_PASS}
+      EMAIL_TO: lamanchy@gmail.com
+    volumes:
+      - ./data:/data:ro
+    depends_on:
+      - mc
+    restart: unless-stopped
