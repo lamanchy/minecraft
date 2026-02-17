@@ -23,7 +23,7 @@ services:
       OPS: |
         lamanchy
       MODPACK_PLATFORM: MODRINTH
-      MODRINTH_MODPACK: fabulously-optimized:11.2.0
+      MODRINTH_MODPACK: https://modrinth.com/modpack/fabulously-optimized/version/11.2.0
       MODRINTH_PROJECTS: |
         architectury-api
         distanthorizons
