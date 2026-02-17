@@ -25,73 +25,70 @@ services:
       MODPACK_PLATFORM: MODRINTH
       MODRINTH_MODPACK: fabulously-optimized
       MODRINTH_PROJECTS: |
-        ferrite-core
-        modmenu
-        xaeros-world-map
-        bettergrassify
-        translations-for-sodium
-        sodium-extra
-        vegan-recipes
-        fabric-language-kotlin
-        yacl
-        cristel-lib
-        zoomify
-        mixintrace
-        no-chat-reports
-        modelfix
-        capes
-        debugify
-        cloth-config
-        architectury-api
-        yosbr
-        crash-assistant
-        rei
         ambientsounds
+        animatica
+        appleskin
+        architectury-api
         better-mount-hud
-        entitytexturefeatures
-        inventory-profiles-next
-        enchantment-descriptions
-        entityculling
-        immediatelyfast
+        bettergrassify
+        capes
+        carry-on
+        cloth-config
         continuity
         controlify
+        crash-assistant
         creativecore
-        xaeros-minimap
-        chat-reporting-helper
-        sodium-shadowy-path-blocks
-        simple-voice-chat
-        animatica
-        main-menu-credits
+        cristel-lib
+        cubes-without-borders
+        debugify
+        distanthorizons
+        dynamic-fps
+        e4mc
+        enchantment-descriptions
+        entity-model-features
+        entityculling
+        entitytexturefeatures
+        fabric-api
+        fabric-language-kotlin
+        fabrishot
+        fastquit
+        ferrite-core
         forge-config-api-port
+        immediatelyfast
+        inventory-profiles-next
+        iris
+        jade
+        lambdynamiclights
         language-reload
         libipn
-        fabrishot
-        jade
-        prickle
-        paginatedadvancements
-        iris
-        makeup-ultra-fast-shaders
-        fastquit
-        not-enough-animations
-        e4mc
-        cubes-without-borders
-        moreculling
-        reeses-sodium-options
-        optigui
-        towns-and-towers
-        morechathistory
-        puzzle
-        skyboxify
-        carry-on
-        fabric-api
-        rrls
         lithium
-        dynamic-fps
-        entity-model-features
-        lambdynamiclights
-        appleskin
-        distanthorizons
+        main-menu-credits
+        mixintrace
+        modelfix
+        modmenu
+        morechathistory
+        moreculling
+        no-chat-reports
+        not-enough-animations
+        optigui
+        paginatedadvancements
+        prickle
+        puzzle
+        reeses-sodium-options
+        rei
+        rrls
+        simple-voice-chat
+        skyboxify
         sodium
+        sodium-extra
+        sodium-shadowy-path-blocks
+        towns-and-towers
+        vegan-recipes
+        xaeros-minimap
+        xaeros-world-map
+        yacl
+        yosbr
+        zoomify
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
