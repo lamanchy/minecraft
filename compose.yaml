@@ -29,7 +29,7 @@ services:
         modmenu
         xaeros-world-map
         bettergrassify
-        urcepack/translations-for-sodium
+        translations-for-sodium
         sodium-extra
         vegan-recipes
         fabric-language-kotlin
@@ -57,7 +57,7 @@ services:
         controlify
         creativecore
         xaeros-minimap
-        urcepack/chat-reporting-helper
+        chat-reporting-helper
         sodium-shadowy-path-blocks
         simple-voice-chat
         animatica
@@ -70,7 +70,7 @@ services:
         prickle
         paginatedadvancements
         iris
-        er/makeup-ultra-fast-shaders
+        makeup-ultra-fast-shaders
         fastquit
         not-enough-animations
         e4mc
