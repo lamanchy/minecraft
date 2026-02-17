@@ -19,7 +19,7 @@ services:
         zizek_betelgeuse
       SEED: "1992452246193441360"
       VERSION: 1.21.10
-      VIEW_DISTANCE: 32
+      VIEW_DISTANCE: 8
       OPS: |
         lamanchy
       MODPACK_PLATFORM: MODRINTH
