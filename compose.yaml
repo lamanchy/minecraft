@@ -25,70 +25,21 @@ services:
       MODPACK_PLATFORM: MODRINTH
       MODRINTH_MODPACK: fabulously-optimized
       MODRINTH_PROJECTS: |
-        ambientsounds
-        animatica
-        appleskin
         architectury-api
-        better-mount-hud
-        bettergrassify
-        capes
-        carry-on
-        cloth-config
-        continuity
-        controlify
-        crash-assistant
-        creativecore
-        cristel-lib
-        cubes-without-borders
-        debugify
         distanthorizons
-        dynamic-fps
-        e4mc
-        enchantment-descriptions
-        entity-model-features
-        entityculling
-        entitytexturefeatures
-        fabric-api
-        fabric-language-kotlin
-        fabrishot
-        fastquit
-        ferrite-core
-        forge-config-api-port
-        immediatelyfast
         inventory-profiles-next
-        iris
-        jade
-        lambdynamiclights
-        language-reload
-        libipn
-        lithium
-        main-menu-credits
-        mixintrace
-        modelfix
-        modmenu
-        morechathistory
-        moreculling
-        no-chat-reports
-        not-enough-animations
-        optigui
-        paginatedadvancements
-        prickle
-        puzzle
-        reeses-sodium-options
-        rei
-        rrls
+        ambientsounds
         simple-voice-chat
-        skyboxify
-        sodium
-        sodium-extra
-        sodium-shadowy-path-blocks
-        towns-and-towers
-        vegan-recipes
-        xaeros-minimap
         xaeros-world-map
-        yacl
-        yosbr
-        zoomify
+        towns-and-towers
+        jade
+        vegan-recipes
+        appleskin
+        rei
+        not-enough-animations
+        xaeros-minimap
+        carry-on
+
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
